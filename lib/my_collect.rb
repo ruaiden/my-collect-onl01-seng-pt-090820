@@ -7,6 +7,6 @@ def my_collect(collection)
   
 end
 
-  
+ collector << my_collect(collection)
 
 end
