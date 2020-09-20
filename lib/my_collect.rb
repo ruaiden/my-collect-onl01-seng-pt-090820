@@ -1,10 +1,11 @@
 def collect(collection)
   
-counter = 0
+i = 0
 
-  while counter < collection.length
+  while i < collection.length
+    yield (collection[i])
   
- counter += 1 
+ i += 1 
   
 end
 
